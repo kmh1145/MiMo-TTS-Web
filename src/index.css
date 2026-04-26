@@ -156,9 +156,9 @@ body {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 6px;
-  background: transparent;
+  background: var(--color-border);
   border-radius: var(--radius);
-  padding: 0;
+  padding: 4px;
   margin-bottom: 24px;
 }
 
@@ -199,7 +199,7 @@ body {
 
 @media (max-width: 600px) {
   .tab-bar {
-    gap: 4px;
+    gap: 3px;
   }
   .tab {
     padding: 10px 4px;
