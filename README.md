@@ -114,3 +114,7 @@ docker run -d -p 8080:80 mimo-tts-web
 ## 隐私
 
 API Key 仅保存在浏览器 Cookie 中，每次请求直接从浏览器发送到 MiMo API 服务器，不经过任何第三方中转。
+
+## 免责声明
+
+本项目由 AI 辅助生成，可能存在未发现的 Bug。如遇到问题欢迎提交 [Issue](https://github.com/kmh1145/MiMo-TTS-Web/issues) 反馈。
