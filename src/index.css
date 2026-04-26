@@ -392,10 +392,14 @@ select.input {
   border-radius: 6px;
 }
 
-.btn-option-active {
+.btn-option-active,
+.btn-option-active:hover,
+.btn-option-active:focus,
+.btn-option-active:focus-visible {
   background: var(--color-primary);
   color: #fff;
   border-color: var(--color-primary);
+  outline: none;
 }
 
 /* ---- Format Selector ---- */
