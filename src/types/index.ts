@@ -23,7 +23,7 @@ export interface VoiceOption {
 export const PRESET_VOICES: VoiceOption[] = [
   { id: '冰糖', name: '冰糖', description: '甜美女声' },
   { id: '茉莉', name: '茉莉', description: '清新女声' },
-  { id: '苏打', name: '苏打', description: '活泼女声' },
+  { id: '苏打', name: '苏打', description: '活泼男声' },
   { id: '白桦', name: '白桦', description: '沉稳男声' },
   { id: 'Mia', name: 'Mia', description: 'English female' },
   { id: 'Chloe', name: 'Chloe', description: 'English female' },
