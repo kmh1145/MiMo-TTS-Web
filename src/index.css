@@ -90,8 +90,10 @@ body {
 .apikey-display {
   display: flex;
   align-items: center;
-  gap: 8px;
+  gap: 6px;
+  row-gap: 8px;
   font-size: 0.85rem;
+  flex-wrap: wrap;
 }
 
 .apikey-label {
@@ -114,6 +116,14 @@ body {
   background: rgba(0, 113, 227, 0.08);
   padding: 2px 8px;
   border-radius: 4px;
+  white-space: nowrap;
+}
+
+.apikey-key-group {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  white-space: nowrap;
 }
 
 .apikey-input {

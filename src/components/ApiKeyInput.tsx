@@ -31,9 +31,11 @@ const ApiKeyInput: React.FC<Props> = ({ apiKey, baseUrl, onSave }) => {
   if (!editing && apiKey) {
     return (
       <div className="apikey-display">
-        <span className="apikey-label">API Key:</span>
-        <span className="apikey-masked">{apiKey.slice(0, 4)}****{apiKey.slice(-4)}</span>
-        <span className="apikey-plan-badge">{selectedLabel}</span>
+        <span className="apikey-key-group">
+          <span className="apikey-label">API Key:</span>
+          <span className="apikey-masked">{apiKey.slice(0, 4)}****{apiKey.slice(-4)}</span>
+          <span className="apikey-plan-badge">{selectedLabel}</span>
+        </span>
         <button className="btn btn-sm" onClick={() => setEditing(true)}>
           修改
         </button>
