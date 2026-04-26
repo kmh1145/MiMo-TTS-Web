@@ -83,7 +83,7 @@ const App: React.FC = () => {
           target="_blank"
           rel="noopener noreferrer"
         >
-          开源地址
+          项目开源地址
         </a>
       </footer>
     </div>
