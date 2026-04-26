@@ -198,6 +198,19 @@ body {
 .tab-desc {
   font-size: 0.75rem;
   color: var(--color-text-tertiary);
+  white-space: nowrap;
+}
+
+@media (max-width: 600px) {
+  .tab {
+    padding: 10px 4px;
+  }
+  .tab-label {
+    font-size: 0.85rem;
+  }
+  .tab-desc {
+    font-size: 0.62rem;
+  }
 }
 
 .tab-active .tab-desc {
